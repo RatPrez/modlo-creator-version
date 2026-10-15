@@ -1,0 +1,13 @@
+{
+  "latest": "1.0.0",
+  "download_url": "https://polar.sh/modlocreator/portal",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-10-16",
+      "changes": [
+        "First release."
+      ]
+    }
+  ]
+}
