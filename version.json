@@ -1,7 +1,27 @@
 {
-  "latest": "1.0.0",
+  "latest": "1.1.0",
   "download_url": "https://polar.sh/modlocreator/portal",
   "changelog": [
+    {
+      "version": "1.1.0",
+      "date": "2026-10-17",
+      "changes": [
+        "GTA V Enhanced: export for Legacy, Enhanced or both in one resource (Export > Game).",
+        "Linux (beta): Modlo Creator runs on Linux as an AppImage and finds GTA V in Steam (Proton), Lutris, Heroic, Bottles or Wine.",
+        "Walk-in buildings: a preview of the building before you pick it, and the models it comes with (decals, glass, props) included, left out or removed from the map.",
+        "Walk-in buildings: occluders and the game's floor inside your rooms are cleared on export, so nothing hides or shows through your interior.",
+        "Walk-in buildings: Make openings for several marks at once, Keep marks upright, and doors and windows that snap to the building's openings.",
+        "Explode points: a new shell tool that casts rays inside a building and builds square walls, doors and windows from the corners you click.",
+        "Mirror modifier: build one half and mirror it across X and/or Y.",
+        "Wall heights follow the ceiling; cornices follow sloped walls; doors and windows go as high as their own wall.",
+        "New handles for floor cuts, zones, railings, ladders, stairs, lights, spawn points, decals, mesh scale and sills.",
+        "Number fields work like Blender's, UI scale presets for 1080p to 5K, and Show the keys pressed for recording tutorials.",
+        "Experimental: hanging cloth the game simulates, and breakable window glass.",
+        "Fixed: custom doors had no collision and never swung in game (re-export older projects).",
+        "Fixed: a walk-in doorway cut a hole into the ground in front of the door.",
+        "Fixed: a mirror didn't show the door of its room (not yet checked in game), Array... showed twice with several props selected, dirt along the floor vanished under windows."
+      ]
+    },
     {
       "version": "1.0.0",
       "date": "2026-10-16",
