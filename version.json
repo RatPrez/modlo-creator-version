@@ -1,7 +1,18 @@
 {
-  "latest": "1.1.1",
+  "latest": "1.1.2",
   "download_url": "https://polar.sh/modlocreator/portal",
   "changelog": [
+    {
+      "version": "1.1.2",
+      "date": "2026-10-17",
+      "changes": [
+        "Props take the light of their room (sky through the windows, ambient, lamps, a contact shadow): on in new projects, set in Game > Vertex colours or per prop.",
+        "Collision for props that have none (boxes, or a mesh as the last resort): on in new projects, set in Game > Prop collision or per model.",
+        "Fixed: game props, game doors and custom doors had no collision in game (re-export your interior).",
+        "Fixed: floor and ceiling dirt made hard bands beside windows and doors; it now fades out smoothly before them.",
+        "Fixed: a clean slit in the dirt, and a crack in the editor's walls, where two walls meet almost in line."
+      ]
+    },
     {
       "version": "1.1.1",
       "date": "2026-10-17",
