@@ -1,7 +1,17 @@
 {
-  "latest": "1.1.0",
+  "latest": "1.1.1",
   "download_url": "https://polar.sh/modlocreator/portal",
   "changelog": [
+    {
+      "version": "1.1.1",
+      "date": "2026-10-17",
+      "changes": [
+        "Fixed: window and door frames, glass and sill boards were missing from outside the interior.",
+        "Fixed: louvre window slats stuck out of their frame at an angle.",
+        "Fixed: game props and doors that didn't load in game: each is now exported as a copy under the resource's name, with its own texture dictionary.",
+        "Props and doors from the game are kept in the project's Assets/Game folder, so a project moved to another computer still finds them."
+      ]
+    },
     {
       "version": "1.1.0",
       "date": "2026-10-17",
