@@ -8,6 +8,9 @@
       "changes": [
         "Props take the light of their room (sky through the windows, ambient, lamps, a contact shadow): on in new projects, set in Game > Vertex colours or per prop.",
         "Collision for props that have none (boxes, or a mesh as the last resort): on in new projects, set in Game > Prop collision or per model.",
+        "A tidier tool column: Railing with Wall, Ladder with Stairs, and new Mirror, particle effect, sound emitter and ped spawn point buttons.",
+        "Shift+A is the Add menu: Mesh, Effects, Lighting and mirrors, Collision (Edit > Add is the same).",
+        "Breakable glass and hanging cloth are switched off for now (Preferences > Interface > Experimental): the glass crashed the game and the cloth fell through the map.",
         "Fixed: game props, game doors and custom doors had no collision in game (re-export your interior).",
         "Fixed: floor and ceiling dirt made hard bands beside windows and doors; it now fades out smoothly before them.",
         "Fixed: a clean slit in the dirt, and a crack in the editor's walls, where two walls meet almost in line."
