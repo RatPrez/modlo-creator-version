@@ -1,7 +1,21 @@
 {
-  "latest": "1.1.2",
+  "latest": "1.2.0",
   "download_url": "https://polar.sh/modlocreator/portal",
   "changelog": [
+    {
+      "version": "1.2.0",
+      "date": "2026-10-19",
+      "changes": [
+        "Rendered view: the interior drawn with the game's own shading, the room's timecycle at the hour and weather you pick (Shading popover).",
+        "Test in FiveM (File > Test in FiveM, F5): the export goes into your local test server and the running server reloads it.",
+        "One keymap: Blender's keys plus the interior tools' letters (the Modlo / Blender switch is gone); the status bar shows the keys that apply.",
+        "Settings in one place: Preferences for you, Properties > Game for the export, the Shading / Overlays / snap popovers for the view; a rounder look.",
+        "More control: arrows and typed numbers on every item kind, Move to the level above / below.",
+        "Railing styles, curtain heads, window designs, door presets with handles, light fittings, picture frames and style materials, sized from the game's own props.",
+        "Faster: the Properties panel no longer copies the project every frame; start-up on a worker thread; the game's files read up to twice as fast.",
+        "Fixed: a new project's first game prop import, lights stopping under a raised ceiling, exit doors not in the room's light, a crash after undoing an effect or mesh object, inside-out glTF exports, non-manifold glass on beamed windows."
+      ]
+    },
     {
       "version": "1.1.2",
       "date": "2026-10-17",
